@@ -1,6 +1,6 @@
 # Welcome to POKE.ID: Roll and Catch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hosting URL: [POKE.ID: Roll and Catch](https://pokeid.web.app/).
 
 ## Tech Stacks
 
@@ -11,6 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Sweetalert2 v11.3.10
 - Emotion v11.7.1 (CSS-in-JS)
 - Testing-Library v12.1.2 (React)
+- Firebase v9.6.6
 - Node.js v16.13.2
 - Npm v8.1.2
 
