@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "POKE.ID",
+  "name": "POKE.ID: Roll and Catch",
   "icons": [
     {
       "src": "pokemon.ico",
@@ -8,14 +8,15 @@
       "type": "image/x-icon"
     },
     {
-      "src": "pokemon96.png",
+      "src": "pokemon192.png",
       "type": "image/png",
-      "sizes": "96x96"
+      "sizes": "192x192"
     },
     {
-      "src": "pokemon128.png",
+      "src": "pokemon512.png",
       "type": "image/png",
-      "sizes": "128x128"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",
