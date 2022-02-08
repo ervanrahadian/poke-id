@@ -24,6 +24,12 @@ Hosting URL: [POKE.ID: Roll and Catch](https://pokeid.web.app/).
 - My List Items
 - Add/Release Item
 
+## Performances
+
+<img src="perfect-score.png" alt="perfect-score">
+
+<img src="performance.png" alt="performance">
+
 ### `npm start`
 
 Runs the app in the local mode.\
