@@ -44,8 +44,6 @@ const MyPokemonsList = () => {
     }),
   };
 
-  console.log(myListData);
-
   return (
     <>
       <Microtransaction pokecoin={pokecoin} setPokecoin={setPokecoin} />

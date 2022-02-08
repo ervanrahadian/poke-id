@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { MyPokemonsList, PokemonDetail, PokemonsList } from "./pages";
 import { Header } from "./components";
 import { Container } from "react-bootstrap";
@@ -20,9 +20,10 @@ function App() {
       <Header />
       <Container css={style.root}>
         <Routes>
-          <Route path="/" element={<PokemonsList />} />
           <Route path="/my-pokemons-list" element={<MyPokemonsList />} />
           <Route path="/pokemon-detail" element={<PokemonDetail />} />
+          <Route path="/" element={<PokemonsList />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Container>
     </BrowserRouter>
