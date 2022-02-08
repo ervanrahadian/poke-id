@@ -23,6 +23,7 @@ function App() {
           <Route path="/my-pokemons-list" element={<MyPokemonsList />} />
           <Route path="/pokemon-detail" element={<PokemonDetail />} />
           <Route path="/" element={<PokemonsList />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Container>
     </BrowserRouter>
