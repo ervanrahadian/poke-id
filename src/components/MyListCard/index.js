@@ -66,7 +66,12 @@ const MyListCard = (props) => {
   return (
     <Card className="mb-4" css={style.card}>
       <Link to="/pokemon-detail" state={props.data.name}>
-        <Card.Img variant="top" src={props.data.image} />
+        <Card.Img
+          variant="top"
+          alt={getFormattedText(props.data.name)}
+          title={getFormattedText(props.data.name)}
+          src={props.data.image}
+        />
 
         <Card.Body className="text-center">
           <Card.Title>{props.data.nickname}</Card.Title>

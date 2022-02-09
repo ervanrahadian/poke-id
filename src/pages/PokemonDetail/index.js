@@ -37,6 +37,7 @@ const PokemonDetail = () => {
       border: "4px solid #212529",
       borderRadius: "50%",
       height: "175px",
+      width: "175px",
       transition: "0.2s",
       animation: "rotation 5s infinite linear",
       "@keyframes rotation": {
@@ -151,6 +152,8 @@ const PokemonDetail = () => {
           <Row className="justify-content-center text-center pt-4">
             <Col>
               <Image
+                alt={getFormattedText(detailData.pokemon.name)}
+                title={getFormattedText(detailData.pokemon.name)}
                 src={detailData.pokemon.sprites.front_default}
                 css={style.image}
               />
